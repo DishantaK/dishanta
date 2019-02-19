@@ -1,0 +1,110 @@
+
+/* Main Styles */
+body {
+   background-image: url('img/topography.png');
+}
+
+#logo{
+
+    font-weight: 900;
+    font-size:2.3em;
+    color: #000;
+    margin: auto;
+    text-align: center;
+}
+
+#clover {
+    width: 6vw;
+    height: 6vw; 
+    margin: 15px;
+    vertical-align: middle;
+}
+#clover:hover {
+ 
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+.mainH{
+   display: block;
+   font-size: 2em;
+   font-weight: 900;
+   margin-bottom: 30px;
+   text-transform: capitalize;
+   line-height: .9
+}
+.mainH i{
+   font-weight: 900i;
+   color:#6cbb2d;
+}
+.subH{
+   display: block;
+   font-size:18px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   text-transform: none;
+
+}
+i {
+  margin-right: 20px;
+}
+nav, ul, .intro {
+  margin:auto;
+  text-align: center;
+}
+nav {
+  width: 70vw;
+
+}
+
+li{
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  
+}
+li a:hover {
+  color: #6cbb2d;
+
+}
+
+/* Header */
+header{
+   height: 95vh;
+   
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   grid-gap:20px;
+   
+}
+
+.intro {
+    width: 80vw;
+    margin-bottom:50px;
+    animation-duration: 2s;
+ 
+
+  
+}
+
+@media only screen and (max-width:500px) {
+    li{
+      display: block;
+    }
+    .subH{
+      font-size: 16px;
+    }
+    .mainH {
+      
+      font-size: 1.5em;
+    }
+    #logo{
+      font-size:1.3em;
+    }
+    #clover{
+     
+    }
+}
